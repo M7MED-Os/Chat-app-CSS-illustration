@@ -233,6 +233,11 @@ section::before {
   animation-play-state: running;
 }
 
+label, 
+label div {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .phone-part .chat label .rad {
   width: 18px;
   height: 18px;
