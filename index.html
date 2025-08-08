@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Chat app CSS illustration</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div class="phone-part">
+          <div class="person-details">
+            <i class="fa-solid fa-angle-left"></i>
+            <div class="details">
+              <div class="photo">
+                <img src="images/avatar.jpg" alt="Photo" />
+              </div>
+              <div class="info">
+                <span class="name">Mohamed Osama</span>
+                <span class="status">Available to Walk</span>
+              </div>
+            </div>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+          <div class="chat">
+            <div class="msg sended">
+              That sounds great. I’d be happy with that.
+            </div>
+            <div class="msg sended">
+              Could you send over some pictures of your dog, please?
+            </div>
+            <div class="msg received msg-photos">
+              <img src="images/dog-image-1.jpg" alt="Dog 1" />
+              <img src="images/dog-image-2.jpg" alt="Dog 2" />
+              <img src="images/dog-image-3.jpg" alt="Dog 3" />
+            </div>
+            <div class="msg received">
+              Here are a few pictures. She’s a happy girl!
+            </div>
+            <div class="msg received">Can you make it?</div>
+            <div class="msg sended">
+              She looks so happy! The time we discussed works. How long shall I
+              take her out for?
+            </div>
+            <input type="radio" name="option" id="price-29" />
+            <label for="price-29">
+              <div>
+                <span class="rad"></span>
+                <span class="ser">30 Minute Walk</span>
+                <span class="price">$29</span>
+              </div>
+            </label>
+            <input type="radio" name="option" id="price-49" checked />
+            <label for="price-49">
+              <div>
+                <span class="rad"></span>
+                <span class="ser">1 Hour Walk</span>
+                <span class="price">$49</span>
+              </div>
+            </label>
+            <div class="type-msg">
+              <input
+                type="text"
+                name="msg"
+                id="msg"
+                placeholder="Type a message"
+              />
+              <button class="right-angle">
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="text-part">
+          <h1>Simple booking</h1>
+          <p>
+            Stay in touch with our dog walkers through the chat interface. This
+            makes it easy to discuss arrangements and make bookings. Once the
+            walk has been completed you can rate your walker and book again all
+            through the chat.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
