@@ -20,7 +20,8 @@ The interface is responsive, elegant, and user-friendly.
 
 - Beautiful and modern **glassmorphism-inspired** design.
 - Fully responsive layout for mobile and desktop screens.
-- Animated gradient header for the chat interface.
+- Gradient header for the chat interface.
+- Animated gradient background in the section::before element.
 - Custom-styled radio buttons for booking options.
 - Smooth hover and selection effects.
 - Interactive message input field with send button.
